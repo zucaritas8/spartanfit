@@ -41,40 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CONTROLADOR\AsistenciaControlador.cs" />
-    <Compile Include="CONTROLADOR\CoachControlador.cs" />
+    <Compile Include="CONTROLADOR\EstacionControlador.cs" />
     <Compile Include="CONTROLADOR\ConexionControlador.cs" />
-    <Compile Include="CONTROLADOR\CredencialControlador.cs" />
-    <Compile Include="CONTROLADOR\DietaControlador.cs" />
     <Compile Include="CONTROLADOR\EjercicioControlador.cs" />
     <Compile Include="CONTROLADOR\EspecialidadControlador.cs" />
-    <Compile Include="CONTROLADOR\EstacionControlador.cs" />
-    <Compile Include="CONTROLADOR\InscripcionControlador.cs" />
     <Compile Include="CONTROLADOR\LoginControlador.cs" />
-    <Compile Include="CONTROLADOR\MiembroControlador.cs" />
-    <Compile Include="CONTROLADOR\ObjetivoControlador.cs" />
-    <Compile Include="CONTROLADOR\RutinaControlador.cs" />
-    <Compile Include="CONTROLADOR\SeguimientoControlador.cs" />
     <Compile Include="CONTROLADOR\UsuarioControlador.cs" />
-    <Compile Include="MODELO\Asistencia.cs" />
-    <Compile Include="MODELO\Coach.cs" />
-    <Compile Include="MODELO\CoachEspecialidad.cs" />
+    <Compile Include="MODELO\EstacionEjercicio.cs" />
+    <Compile Include="MODELO\RegistroEstacion.cs" />
     <Compile Include="MODELO\Conexion.cs" />
-    <Compile Include="MODELO\Credencial.cs" />
-    <Compile Include="MODELO\Dieta.cs" />
-    <Compile Include="MODELO\DietaDetalle.cs" />
     <Compile Include="MODELO\Ejercicio.cs" />
     <Compile Include="MODELO\Especialidad.cs" />
     <Compile Include="MODELO\Estacion.cs" />
-    <Compile Include="MODELO\EstacionEjercicio.cs" />
-    <Compile Include="MODELO\Inscripcion.cs" />
-    <Compile Include="MODELO\Miembro.cs" />
-    <Compile Include="MODELO\Objetivo.cs" />
-    <Compile Include="MODELO\RegistroEstacion.cs" />
-    <Compile Include="MODELO\RegistroRutina.cs" />
-    <Compile Include="MODELO\Rutina.cs" />
-    <Compile Include="MODELO\RutinaEjercicio.cs" />
-    <Compile Include="MODELO\Seguimiento.cs" />
     <Compile Include="MODELO\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -82,30 +60,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmAsistencias.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmAsistencias.Designer.cs">
-      <DependentUpon>FrmAsistencias.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmCoaches.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmCoaches.Designer.cs">
-      <DependentUpon>FrmCoaches.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmCredenciales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmCredenciales.Designer.cs">
-      <DependentUpon>FrmCredenciales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmDietas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmDietas.Designer.cs">
-      <DependentUpon>FrmDietas.cs</DependentUpon>
     </Compile>
     <Compile Include="VISTA\FrmEjercicios.cs">
       <SubType>Form</SubType>
@@ -125,12 +79,6 @@
     <Compile Include="VISTA\FrmEstaciones.Designer.cs">
       <DependentUpon>FrmEstaciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="VISTA\FrmInscripciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmInscripciones.Designer.cs">
-      <DependentUpon>FrmInscripciones.cs</DependentUpon>
-    </Compile>
     <Compile Include="VISTA\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,47 +91,11 @@
     <Compile Include="VISTA\FrmMenuPrincipal.Designer.cs">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="VISTA\FrmMiembros.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmMiembros.Designer.cs">
-      <DependentUpon>FrmMiembros.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmObjetivos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmObjetivos.Designer.cs">
-      <DependentUpon>FrmObjetivos.cs</DependentUpon>
-    </Compile>
     <Compile Include="VISTA\FrmPresentacion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VISTA\FrmPresentacion.Designer.cs">
       <DependentUpon>FrmPresentacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmRegistroEstaciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmRegistroEstaciones.Designer.cs">
-      <DependentUpon>FrmRegistroEstaciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmRegistroRutinas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmRegistroRutinas.Designer.cs">
-      <DependentUpon>FrmRegistroRutinas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmRutinas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmRutinas.Designer.cs">
-      <DependentUpon>FrmRutinas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VISTA\FrmSeguimiento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VISTA\FrmSeguimiento.Designer.cs">
-      <DependentUpon>FrmSeguimiento.cs</DependentUpon>
     </Compile>
     <Compile Include="VISTA\FrmUsuarios.cs">
       <SubType>Form</SubType>
@@ -200,18 +112,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmAsistencias.resx">
-      <DependentUpon>FrmAsistencias.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmCoaches.resx">
-      <DependentUpon>FrmCoaches.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmCredenciales.resx">
-      <DependentUpon>FrmCredenciales.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmDietas.resx">
-      <DependentUpon>FrmDietas.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmEjercicios.resx">
       <DependentUpon>FrmEjercicios.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,35 +121,14 @@
     <EmbeddedResource Include="VISTA\FrmEstaciones.resx">
       <DependentUpon>FrmEstaciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmInscripciones.resx">
-      <DependentUpon>FrmInscripciones.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmMenuPrincipal.resx">
       <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmMiembros.resx">
-      <DependentUpon>FrmMiembros.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmObjetivos.resx">
-      <DependentUpon>FrmObjetivos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmPresentacion.resx">
       <DependentUpon>FrmPresentacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmRegistroEstaciones.resx">
-      <DependentUpon>FrmRegistroEstaciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmRegistroRutinas.resx">
-      <DependentUpon>FrmRegistroRutinas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmRutinas.resx">
-      <DependentUpon>FrmRutinas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="VISTA\FrmSeguimiento.resx">
-      <DependentUpon>FrmSeguimiento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VISTA\FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.cs</DependentUpon>

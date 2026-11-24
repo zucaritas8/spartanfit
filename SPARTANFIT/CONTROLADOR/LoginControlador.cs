@@ -13,23 +13,45 @@ namespace SPARTANFIT.CONTROLADOR
         {
             using (SHA256 sha = SHA256.Create())
             {
-                byte[] bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(clave ?? string.Empty));
+                byte[] bytes = sha.ComputeHash(
+                    Encoding.UTF8.GetBytes(clave ?? string.Empty)
+                );
+
                 return BitConverter.ToString(bytes).Replace("-", "");
             }
         }
 
-        public static bool Autenticar(string usuario, string clave, out string rol, out string mensaje)
+        public static bool Autenticar(
+            string usuario,
+            string clave,
+            out string rol,
+            out string mensaje)
         {
             int idUsuario;
             string nombreCompleto;
-            return Autenticar(usuario, clave, out idUsuario, out rol, out nombreCompleto, out mensaje);
+
+            return Autenticar(
+                usuario,
+                clave,
+                out idUsuario,
+                out rol,
+                out nombreCompleto,
+                out mensaje
+            );
         }
 
-        public static bool Autenticar(string usuario, string clave, out int idUsuario, out string rol, out string nombreCompleto, out string mensaje)
+        public static bool Autenticar(
+            string usuario,
+            string clave,
+            out int idUsuario,
+            out string rol,
+            out string nombreCompleto,
+            out string mensaje)
         {
             idUsuario = 0;
             rol = string.Empty;
             nombreCompleto = string.Empty;
+            mensaje = string.Empty;
 
             try
             {
@@ -37,8 +59,13 @@ namespace SPARTANFIT.CONTROLADOR
                 using (SqlCommand cmd = new SqlCommand("sp_USUARIO_Login", cn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add("@USUARIO", SqlDbType.NVarChar, 100).Value = usuario.Trim();
-                    cmd.Parameters.Add("@PASSWORD_HASH", SqlDbType.VarChar, 200).Value = Hash(clave);
+
+                    cmd.Parameters.Add("@USUARIO", SqlDbType.NVarChar, 100).Value =
+                        (usuario ?? string.Empty).Trim();
+
+                    cmd.Parameters.Add("@PASSWORD_HASH", SqlDbType.VarChar, 200).Value =
+                        Hash(clave);
+
                     cn.Open();
 
                     using (SqlDataReader rd = cmd.ExecuteReader())
@@ -50,13 +77,18 @@ namespace SPARTANFIT.CONTROLADOR
                         }
 
                         string estado = Convert.ToString(rd["ESTADO"]);
-                        if (!string.Equals(estado, "ACTIVO", StringComparison.OrdinalIgnoreCase))
+
+                        if (!string.Equals(
+                            estado,
+                            "ACTIVO",
+                            StringComparison.OrdinalIgnoreCase))
                         {
                             mensaje = "El usuario está inactivo.";
                             return false;
                         }
 
                         string rolBase = Convert.ToString(rd["ROL"]);
+
                         if (string.Equals(rolBase, "ADMIN", StringComparison.OrdinalIgnoreCase))
                             rol = "Administrador";
                         else if (string.Equals(rolBase, "COACH", StringComparison.OrdinalIgnoreCase))
@@ -71,6 +103,7 @@ namespace SPARTANFIT.CONTROLADOR
 
                         idUsuario = Convert.ToInt32(rd["ID_USUARIO"]);
                         nombreCompleto = Convert.ToString(rd["NOMBRE_COMPLETO"]);
+
                         mensaje = string.Empty;
                         return true;
                     }

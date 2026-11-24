@@ -1,94 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\",
+  "WorkspaceRootPath": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\controlador\\logincontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\logincontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\controlador\\ejerciciocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\ejerciciocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmmiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmmiembros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmiembros.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmmiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmiembros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmseguimiento.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmseguimiento.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\controlador\\rutinacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\rutinacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmseguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmseguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\spartanfit\\vista\\frmseguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmseguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmrutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmregistrorutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmregistrorutinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmobjetivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmobjetivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frminscripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frminscripciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmasistencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\ejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\controlador\\especialidadcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\especialidadcontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit (1)\\spartanfit\\spartanfit\\vista\\frmrutinas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmrutinas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\estacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\estacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\spartanfit\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\controlador\\estacioncontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\estacioncontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\estacionejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\estacionejercicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\registroestacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\registroestacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmestaciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmestaciones.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\controlador\\usuariocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\controlador\\usuariocontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmestaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmespecialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\spartanfit\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|c:\\users\\fabiana\\downloads\\spartanfit-modificado\\spartanfit\\spartanfit\\vista\\frmpresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F6A1C52-8B7E-4D0A-9C11-5A2E7B9D4F10}|SPARTANFIT\\SPARTANFIT.csproj|solutionrelative:spartanfit\\vista\\frmpresentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,36 +158,240 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMiembros.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.Designer.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmMiembros.Designer.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.Designer.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmMiembros.Designer.cs",
-              "ViewState": "AgIAAA8CAAAAAAAAAAA5wCICAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginControlador.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\LoginControlador.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\LoginControlador.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\LoginControlador.cs",
+              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\LoginControlador.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwHYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:26:42.287Z",
+              "WhenOpened": "2026-11-24T20:32:22.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EjercicioControlador.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EjercicioControlador.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\EjercicioControlador.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EjercicioControlador.cs",
+              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\EjercicioControlador.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:22:40.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ejercicio.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Ejercicio.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\Ejercicio.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Ejercicio.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\Ejercicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:22:04.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EspecialidadControlador.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EspecialidadControlador.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\EspecialidadControlador.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EspecialidadControlador.cs",
+              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\EspecialidadControlador.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:20:43.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Especialidad.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Especialidad.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\Especialidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:20:26.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EstacionEjercicio.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\EstacionEjercicio.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\EstacionEjercicio.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\EstacionEjercicio.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\EstacionEjercicio.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:17:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistroEstacion.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\RegistroEstacion.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\RegistroEstacion.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\RegistroEstacion.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\RegistroEstacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:16:15.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmEstaciones.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.Designer.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEstaciones.Designer.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.Designer.cs",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEstaciones.Designer.cs",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAAAJUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:10:51.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EstacionControlador.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EstacionControlador.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\EstacionControlador.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\EstacionControlador.cs",
+              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\EstacionControlador.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAArwJ0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:10:20.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FrmMiembros.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmMiembros.cs [Dise\u00F1o]",
+              "Title": "Estacion.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Estacion.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\Estacion.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Estacion.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\Estacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:25:11.613Z",
+              "WhenOpened": "2026-11-24T20:07:48.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioControlador.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\UsuarioControlador.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\UsuarioControlador.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\UsuarioControlador.cs",
+              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\UsuarioControlador.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAwwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T20:00:57.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmEjercicios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEjercicios.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEjercicios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:57:35.257Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
+              "Title": "FrmEstaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEstaciones.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEstaciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:56:25.494Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmEspecialidades.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEspecialidades.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:55:47.267Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FrmUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.Designer.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.Designer.cs",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmUsuarios.Designer.cs",
+              "ViewState": "AgIAANQBAAAAAAAAAAAxwPMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:34:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:31:46.987Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Usuario.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\MODELO\\Usuario.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\MODELO\\Usuario.cs",
+              "RelativeToolTip": "SPARTANFIT\\MODELO\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T19:31:32.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FrmPresentacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmPresentacion.cs",
+              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmPresentacion.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmPresentacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmPresentacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-24T14:56:40.378Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:25:00.667Z",
@@ -183,242 +399,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "FrmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmUsuarios.cs",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmUsuarios.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAowI4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:18:21.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmSeguimiento.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.Designer.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmSeguimiento.Designer.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.Designer.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmSeguimiento.Designer.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAKsBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:17:57.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmSeguimiento.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmSeguimiento.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:17:52.617Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FrmRegistroRutinas.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRegistroRutinas.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmRegistroRutinas.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRegistroRutinas.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmRegistroRutinas.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAALkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:17:23.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "FrmObjetivos.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmObjetivos.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmObjetivos.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmObjetivos.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmObjetivos.cs",
-              "ViewState": "AgIAAFoBAAAAAAAAAAAAAGYBAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:16:49.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMiembros.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmMiembros.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:16:40.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FrmMenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmMenuPrincipal.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAAAPQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJMAAAAAAAAAAAA3wLYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:16:33.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "FrmEstaciones.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEstaciones.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEstaciones.cs",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEstaciones.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAAAB4BAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADwBAAAAAAAAAAAwwE4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:15:31.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "FrmEspecialidades.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEspecialidades.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAAAAUBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAcwAkBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:15:18.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "FrmEjercicios.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs",
               "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmEjercicios.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmEjercicios.cs",
               "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmEjercicios.cs",
-              "ViewState": "AgIAAAYBAAAAAAAAAAAAABoBAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAwB4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-24T10:14:56.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FrmAsistencias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmAsistencias.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmAsistencias.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmAsistencias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmAsistencias.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:13:27.142Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwDkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:12:38.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FrmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T10:12:31.364Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FrmInscripciones.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmInscripciones.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmInscripciones.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmInscripciones.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmInscripciones.cs",
-              "ViewState": "AgIAAGABAAAAAAAAAAAAAGUBAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T09:46:26.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RutinaControlador.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\RutinaControlador.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\CONTROLADOR\\RutinaControlador.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\CONTROLADOR\\RutinaControlador.cs",
-              "RelativeToolTip": "SPARTANFIT\\CONTROLADOR\\RutinaControlador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T09:33:04.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FrmRutinas.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRutinas.Designer.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmRutinas.Designer.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRutinas.Designer.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmRutinas.Designer.cs",
-              "ViewState": "AgIAAC0CAAAAAAAAAAAAwDQCAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T09:21:42.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmSeguimiento.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmSeguimiento.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T08:58:41.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmRutinas.cs",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRutinas.cs",
-              "RelativeDocumentMoniker": "SPARTANFIT\\VISTA\\FrmRutinas.cs",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\VISTA\\FrmRutinas.cs",
-              "RelativeToolTip": "SPARTANFIT\\VISTA\\FrmRutinas.cs",
-              "ViewState": "AgIAAJUBAAAAAAAAAAAAAK8BAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-24T08:57:54.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\Properties\\Resources.resx",
+              "DocumentMoniker": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "SPARTANFIT\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT (1)\\SPARTANFIT\\SPARTANFIT\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\FABIANA\\Downloads\\SPARTANFIT-MODIFICADO\\SPARTANFIT\\SPARTANFIT\\Properties\\Resources.resx",
               "RelativeToolTip": "SPARTANFIT\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2026-11-24T07:46:02.497Z",

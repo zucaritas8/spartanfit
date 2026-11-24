@@ -259,7 +259,7 @@ namespace SPARTANFIT.VISTA
         {
             FrmMenuPrincipal menu = new FrmMenuPrincipal();
             menu.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

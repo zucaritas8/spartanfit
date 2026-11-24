@@ -127,8 +127,17 @@
   <data name="Crossfit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descargar (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ejercicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pesa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EvaluacionFisica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\From Assessment to Action_ Exercise Plans That Fit Your Life.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="experto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\experto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\facebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -159,6 +168,9 @@
   </data>
   <data name="UbicacionImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ubicacion.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="whatsapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\whatsapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

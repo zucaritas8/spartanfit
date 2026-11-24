@@ -87,32 +87,17 @@ namespace SPARTANFIT.VISTA
             menuRegistros.ForeColor = Color.White;
             menuRegistros.Font = new Font("Segoe UI", 10F);
 
-            ToolStripMenuItem itemRutinas = new ToolStripMenuItem("Registros de rutinas");
             ToolStripMenuItem itemEstaciones = new ToolStripMenuItem("Registros de estaciones");
 
-            itemRutinas.Click += new EventHandler(btnRegistroRutinas_Click);
-            itemEstaciones.Click += new EventHandler(btnRegistroEstaciones_Click);
-
-            menuRegistros.Items.Add(itemRutinas);
             menuRegistros.Items.Add(itemEstaciones);
         }
 
         private void ConectarEventos()
         {
             btnUsuarios.Click += new EventHandler(btnUsuarios_Click);
-            btnCoaches.Click += new EventHandler(btnCoaches_Click);
-            btnMiembros.Click += new EventHandler(btnMiembros_Click);
             btnEspecialidades.Click += new EventHandler(btnEspecialidades_Click);
             btnEjercicios.Click += new EventHandler(btnEjercicios_Click);
             btnEstaciones.Click += new EventHandler(btnEstaciones_Click);
-            btnCredenciales.Click += new EventHandler(btnCredenciales_Click);
-            btnInscripciones.Click += new EventHandler(btnInscripciones_Click);
-            btnAsistencias.Click += new EventHandler(btnAsistencias_Click);
-            btnRutinas.Click += new EventHandler(btnRutinas_Click);
-            btnRegistros.Click += new EventHandler(btnRegistros_Click);
-            btnDietas.Click += new EventHandler(btnDietas_Click);
-            btnObjetivos.Click += new EventHandler(btnObjetivos_Click);
-            btnSeguimiento.Click += new EventHandler(btnSeguimiento_Click);
         }
 
         private void AbrirFormulario(Form formulario)
@@ -145,16 +130,6 @@ namespace SPARTANFIT.VISTA
             AbrirFormulario(new FrmUsuarios());
         }
 
-        private void btnCoaches_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmCoaches());
-        }
-
-        private void btnMiembros_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmMiembros());
-        }
-
         private void btnEspecialidades_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new FrmEspecialidades());
@@ -168,56 +143,6 @@ namespace SPARTANFIT.VISTA
         private void btnEstaciones_Click(object sender, EventArgs e)
         {
             AbrirFormulario(new FrmEstaciones());
-        }
-
-        private void btnCredenciales_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmCredenciales());
-        }
-
-        private void btnInscripciones_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmInscripciones());
-        }
-
-        private void btnAsistencias_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmAsistencias());
-        }
-
-        private void btnRutinas_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmRutinas());
-        }
-
-        private void btnRegistros_Click(object sender, EventArgs e)
-        {
-            menuRegistros.Show(btnRegistros, new Point(0, btnRegistros.Height));
-        }
-
-        private void btnRegistroRutinas_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmRegistroRutinas());
-        }
-
-        private void btnRegistroEstaciones_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmRegistroEstaciones());
-        }
-
-        private void btnDietas_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmDietas());
-        }
-
-        private void btnObjetivos_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmObjetivos());
-        }
-
-        private void btnSeguimiento_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario(new FrmSeguimiento());
         }
 
         private void FrmMenuPrincipal_FormClosed(object sender, FormClosedEventArgs e)
@@ -242,6 +167,16 @@ namespace SPARTANFIT.VISTA
                 this.DialogResult = DialogResult.Retry;
                 this.Close();
             }
+        }
+
+        private void FrmMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

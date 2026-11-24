@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Data;
 using System.Windows.Forms;
 using SPARTANFIT.CONTROLADOR;
@@ -15,6 +14,9 @@ namespace SPARTANFIT.VISTA
 
             ConfigurarEventos();
             ConfigurarTabla();
+
+            txtIdEstacion.ReadOnly = true;
+
             CargarEstaciones();
             EstadoInicial();
         }
@@ -26,6 +28,7 @@ namespace SPARTANFIT.VISTA
             btnEditar.Click += btnEditar_Click;
             btnEliminar.Click += btnEliminar_Click;
             btnCancelar.Click += btnCancelar_Click;
+
             dgvEstaciones.CellClick += dgvEstaciones_CellClick;
         }
 
@@ -46,24 +49,16 @@ namespace SPARTANFIT.VISTA
                 dgvEstaciones.DataSource = EstacionControlador.Listar("");
 
                 if (dgvEstaciones.Columns.Contains("ID_ESTACION"))
-                {
                     dgvEstaciones.Columns["ID_ESTACION"].HeaderText = "ID";
-                }
 
                 if (dgvEstaciones.Columns.Contains("NOMBRE"))
-                {
                     dgvEstaciones.Columns["NOMBRE"].HeaderText = "NOMBRE";
-                }
 
                 if (dgvEstaciones.Columns.Contains("DESCRIPCION"))
-                {
                     dgvEstaciones.Columns["DESCRIPCION"].HeaderText = "DESCRIPCIÓN";
-                }
 
                 if (dgvEstaciones.Columns.Contains("EQUIPAMIENTO"))
-                {
                     dgvEstaciones.Columns["EQUIPAMIENTO"].HeaderText = "EQUIPAMIENTO";
-                }
             }
             catch (Exception ex)
             {
@@ -88,6 +83,7 @@ namespace SPARTANFIT.VISTA
             btnEliminar.Enabled = false;
 
             dgvEstaciones.ClearSelection();
+
             txtNombre.Focus();
         }
 
@@ -108,21 +104,39 @@ namespace SPARTANFIT.VISTA
 
             if (txtNombre.Text.Trim().Length > 100)
             {
-                MessageBox.Show("El nombre no puede superar los 100 caracteres.");
+                MessageBox.Show(
+                    "El nombre no puede superar los 100 caracteres.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
                 txtNombre.Focus();
                 return false;
             }
 
             if (txtDescripcion.Text.Trim().Length > 255)
             {
-                MessageBox.Show("La descripción no puede superar los 255 caracteres.");
+                MessageBox.Show(
+                    "La descripción no puede superar los 255 caracteres.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
                 txtDescripcion.Focus();
                 return false;
             }
 
             if (txtEquipamiento.Text.Trim().Length > 255)
             {
-                MessageBox.Show("El equipamiento no puede superar los 255 caracteres.");
+                MessageBox.Show(
+                    "El equipamiento no puede superar los 255 caracteres.",
+                    "Validación",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
                 txtEquipamiento.Focus();
                 return false;
             }
@@ -132,12 +146,12 @@ namespace SPARTANFIT.VISTA
 
         private Estacion ObtenerDatos()
         {
+            int id = 0;
+            int.TryParse(txtIdEstacion.Text, out id);
+
             return new Estacion
             {
-                Id = string.IsNullOrWhiteSpace(txtIdEstacion.Text)
-                    ? 0
-                    : Convert.ToInt32(txtIdEstacion.Text),
-
+                Id = id,
                 Nombre = txtNombre.Text.Trim(),
                 Descripcion = txtDescripcion.Text.Trim(),
                 Equipamiento = txtEquipamiento.Text.Trim()
@@ -156,7 +170,9 @@ namespace SPARTANFIT.VISTA
 
             Estacion estacion = ObtenerDatos();
 
-            if (EstacionControlador.Registrar(estacion, out string mensaje))
+            string mensaje;
+
+            if (EstacionControlador.Registrar(estacion, out mensaje))
             {
                 MessageBox.Show(
                     "Estación registrada correctamente.",
@@ -172,7 +188,7 @@ namespace SPARTANFIT.VISTA
             {
                 MessageBox.Show(
                     "No se pudo registrar la estación: " + mensaje,
-                    "Error",
+                    "SPARTANFIT",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
                 );
@@ -181,9 +197,17 @@ namespace SPARTANFIT.VISTA
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtIdEstacion.Text))
+            int id;
+
+            if (!int.TryParse(txtIdEstacion.Text, out id) || id <= 0)
             {
-                MessageBox.Show("Seleccione una estación para editar.");
+                MessageBox.Show(
+                    "Seleccione una estación para editar.",
+                    "SPARTANFIT",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
                 return;
             }
 
@@ -192,7 +216,9 @@ namespace SPARTANFIT.VISTA
 
             Estacion estacion = ObtenerDatos();
 
-            if (EstacionControlador.Actualizar(estacion, out string mensaje))
+            string mensaje;
+
+            if (EstacionControlador.Actualizar(estacion, out mensaje))
             {
                 MessageBox.Show(
                     "Estación actualizada correctamente.",
@@ -208,7 +234,7 @@ namespace SPARTANFIT.VISTA
             {
                 MessageBox.Show(
                     "No se pudo actualizar la estación: " + mensaje,
-                    "Error",
+                    "SPARTANFIT",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
                 );
@@ -217,9 +243,17 @@ namespace SPARTANFIT.VISTA
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtIdEstacion.Text))
+            int id;
+
+            if (!int.TryParse(txtIdEstacion.Text, out id) || id <= 0)
             {
-                MessageBox.Show("Seleccione una estación para eliminar.");
+                MessageBox.Show(
+                    "Seleccione una estación para eliminar.",
+                    "SPARTANFIT",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
                 return;
             }
 
@@ -233,9 +267,9 @@ namespace SPARTANFIT.VISTA
             if (respuesta != DialogResult.Yes)
                 return;
 
-            int id = Convert.ToInt32(txtIdEstacion.Text);
+            string mensaje;
 
-            if (EstacionControlador.Eliminar(id, out string mensaje))
+            if (EstacionControlador.Eliminar(id, out mensaje))
             {
                 MessageBox.Show(
                     "Estación eliminada correctamente.",
@@ -251,7 +285,7 @@ namespace SPARTANFIT.VISTA
             {
                 MessageBox.Show(
                     "No se pudo eliminar la estación: " + mensaje,
-                    "Error",
+                    "SPARTANFIT",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error
                 );
@@ -270,10 +304,21 @@ namespace SPARTANFIT.VISTA
 
             DataGridViewRow fila = dgvEstaciones.Rows[e.RowIndex];
 
-            txtIdEstacion.Text = fila.Cells["ID_ESTACION"].Value?.ToString() ?? "";
-            txtNombre.Text = fila.Cells["NOMBRE"].Value?.ToString() ?? "";
-            txtDescripcion.Text = fila.Cells["DESCRIPCION"].Value?.ToString() ?? "";
-            txtEquipamiento.Text = fila.Cells["EQUIPAMIENTO"].Value?.ToString() ?? "";
+            txtIdEstacion.Text = fila.Cells["ID_ESTACION"].Value == DBNull.Value
+                ? ""
+                : fila.Cells["ID_ESTACION"].Value.ToString();
+
+            txtNombre.Text = fila.Cells["NOMBRE"].Value == DBNull.Value
+                ? ""
+                : fila.Cells["NOMBRE"].Value.ToString();
+
+            txtDescripcion.Text = fila.Cells["DESCRIPCION"].Value == DBNull.Value
+                ? ""
+                : fila.Cells["DESCRIPCION"].Value.ToString();
+
+            txtEquipamiento.Text = fila.Cells["EQUIPAMIENTO"].Value == DBNull.Value
+                ? ""
+                : fila.Cells["EQUIPAMIENTO"].Value.ToString();
 
             btnRegistrar.Enabled = false;
             btnEditar.Enabled = true;
@@ -284,7 +329,7 @@ namespace SPARTANFIT.VISTA
         {
             FrmMenuPrincipal menu = new FrmMenuPrincipal();
             menu.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

@@ -17,8 +17,8 @@ namespace SPARTANFIT.VISTA
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblMarca = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblTituloRojo = new System.Windows.Forms.Label();
@@ -47,9 +47,10 @@ namespace SPARTANFIT.VISTA
             this.lblMarca.BackColor = System.Drawing.Color.Transparent;
             this.lblMarca.Font = new System.Drawing.Font("Bebas Neue", 20F, System.Drawing.FontStyle.Bold);
             this.lblMarca.ForeColor = System.Drawing.Color.White;
-            this.lblMarca.Location = new System.Drawing.Point(25, 15);
+            this.lblMarca.Location = new System.Drawing.Point(19, 12);
+            this.lblMarca.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMarca.Name = "lblMarca";
-            this.lblMarca.Size = new System.Drawing.Size(230, 45);
+            this.lblMarca.Size = new System.Drawing.Size(172, 37);
             this.lblMarca.TabIndex = 0;
             this.lblMarca.Text = "SPARTANFIT";
             // 
@@ -58,9 +59,10 @@ namespace SPARTANFIT.VISTA
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Bebas Neue", 25F);
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(415, 20);
+            this.lblTitulo.Location = new System.Drawing.Point(311, 16);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(168, 45);
+            this.lblTitulo.Size = new System.Drawing.Size(126, 37);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "GESTIÓN DE";
             // 
@@ -69,9 +71,10 @@ namespace SPARTANFIT.VISTA
             this.lblTituloRojo.BackColor = System.Drawing.Color.Transparent;
             this.lblTituloRojo.Font = new System.Drawing.Font("Bebas Neue", 25F, System.Drawing.FontStyle.Bold);
             this.lblTituloRojo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(25)))), ((int)(((byte)(35)))));
-            this.lblTituloRojo.Location = new System.Drawing.Point(577, 20);
+            this.lblTituloRojo.Location = new System.Drawing.Point(433, 16);
+            this.lblTituloRojo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTituloRojo.Name = "lblTituloRojo";
-            this.lblTituloRojo.Size = new System.Drawing.Size(215, 45);
+            this.lblTituloRojo.Size = new System.Drawing.Size(161, 37);
             this.lblTituloRojo.TabIndex = 2;
             this.lblTituloRojo.Text = "ESTACIONES";
             // 
@@ -81,11 +84,12 @@ namespace SPARTANFIT.VISTA
             this.lblIdEstacion.BackColor = System.Drawing.Color.Transparent;
             this.lblIdEstacion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblIdEstacion.ForeColor = System.Drawing.Color.White;
-            this.lblIdEstacion.Location = new System.Drawing.Point(345, 130);
+            this.lblIdEstacion.Location = new System.Drawing.Point(259, 106);
+            this.lblIdEstacion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblIdEstacion.Name = "lblIdEstacion";
-            this.lblIdEstacion.Size = new System.Drawing.Size(91, 20);
+            this.lblIdEstacion.Size = new System.Drawing.Size(23, 15);
             this.lblIdEstacion.TabIndex = 4;
-            this.lblIdEstacion.Text = "ID Estación:";
+            this.lblIdEstacion.Text = "ID:";
             // 
             // txtIdEstacion
             // 
@@ -93,10 +97,11 @@ namespace SPARTANFIT.VISTA
             this.txtIdEstacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtIdEstacion.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtIdEstacion.ForeColor = System.Drawing.Color.White;
-            this.txtIdEstacion.Location = new System.Drawing.Point(455, 127);
+            this.txtIdEstacion.Location = new System.Drawing.Point(341, 103);
+            this.txtIdEstacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtIdEstacion.Name = "txtIdEstacion";
             this.txtIdEstacion.ReadOnly = true;
-            this.txtIdEstacion.Size = new System.Drawing.Size(175, 27);
+            this.txtIdEstacion.Size = new System.Drawing.Size(132, 23);
             this.txtIdEstacion.TabIndex = 5;
             // 
             // lblNombre
@@ -105,9 +110,10 @@ namespace SPARTANFIT.VISTA
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
             this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(345, 190);
+            this.lblNombre.Location = new System.Drawing.Point(259, 154);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(71, 20);
+            this.lblNombre.Size = new System.Drawing.Size(56, 15);
             this.lblNombre.TabIndex = 6;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -117,10 +123,11 @@ namespace SPARTANFIT.VISTA
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtNombre.ForeColor = System.Drawing.Color.White;
-            this.txtNombre.Location = new System.Drawing.Point(455, 187);
+            this.txtNombre.Location = new System.Drawing.Point(341, 152);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtNombre.MaxLength = 100;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(175, 27);
+            this.txtNombre.Size = new System.Drawing.Size(132, 23);
             this.txtNombre.TabIndex = 7;
             // 
             // lblDescripcion
@@ -129,9 +136,10 @@ namespace SPARTANFIT.VISTA
             this.lblDescripcion.BackColor = System.Drawing.Color.Transparent;
             this.lblDescripcion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblDescripcion.ForeColor = System.Drawing.Color.White;
-            this.lblDescripcion.Location = new System.Drawing.Point(345, 250);
+            this.lblDescripcion.Location = new System.Drawing.Point(259, 203);
+            this.lblDescripcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(94, 20);
+            this.lblDescripcion.Size = new System.Drawing.Size(75, 15);
             this.lblDescripcion.TabIndex = 8;
             this.lblDescripcion.Text = "Descripción:";
             // 
@@ -141,10 +149,11 @@ namespace SPARTANFIT.VISTA
             this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtDescripcion.ForeColor = System.Drawing.Color.White;
-            this.txtDescripcion.Location = new System.Drawing.Point(455, 247);
+            this.txtDescripcion.Location = new System.Drawing.Point(341, 201);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDescripcion.MaxLength = 255;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(175, 27);
+            this.txtDescripcion.Size = new System.Drawing.Size(132, 23);
             this.txtDescripcion.TabIndex = 9;
             // 
             // lblEquipamiento
@@ -153,9 +162,10 @@ namespace SPARTANFIT.VISTA
             this.lblEquipamiento.BackColor = System.Drawing.Color.Transparent;
             this.lblEquipamiento.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblEquipamiento.ForeColor = System.Drawing.Color.White;
-            this.lblEquipamiento.Location = new System.Drawing.Point(345, 310);
+            this.lblEquipamiento.Location = new System.Drawing.Point(259, 252);
+            this.lblEquipamiento.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEquipamiento.Name = "lblEquipamiento";
-            this.lblEquipamiento.Size = new System.Drawing.Size(110, 20);
+            this.lblEquipamiento.Size = new System.Drawing.Size(86, 15);
             this.lblEquipamiento.TabIndex = 10;
             this.lblEquipamiento.Text = "Equipamiento:";
             // 
@@ -165,10 +175,11 @@ namespace SPARTANFIT.VISTA
             this.txtEquipamiento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtEquipamiento.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtEquipamiento.ForeColor = System.Drawing.Color.White;
-            this.txtEquipamiento.Location = new System.Drawing.Point(455, 307);
+            this.txtEquipamiento.Location = new System.Drawing.Point(341, 249);
+            this.txtEquipamiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtEquipamiento.MaxLength = 255;
             this.txtEquipamiento.Name = "txtEquipamiento";
-            this.txtEquipamiento.Size = new System.Drawing.Size(175, 27);
+            this.txtEquipamiento.Size = new System.Drawing.Size(132, 23);
             this.txtEquipamiento.TabIndex = 11;
             // 
             // dgvEstaciones
@@ -180,33 +191,34 @@ namespace SPARTANFIT.VISTA
             this.dgvEstaciones.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
             this.dgvEstaciones.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvEstaciones.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEstaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEstaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvEstaciones.ColumnHeadersHeight = 35;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEstaciones.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(15)))), ((int)(((byte)(20)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEstaciones.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvEstaciones.EnableHeadersVisualStyles = false;
             this.dgvEstaciones.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.dgvEstaciones.Location = new System.Drawing.Point(660, 132);
+            this.dgvEstaciones.Location = new System.Drawing.Point(495, 107);
+            this.dgvEstaciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvEstaciones.MultiSelect = false;
             this.dgvEstaciones.Name = "dgvEstaciones";
             this.dgvEstaciones.ReadOnly = true;
             this.dgvEstaciones.RowHeadersVisible = false;
             this.dgvEstaciones.RowHeadersWidth = 51;
             this.dgvEstaciones.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEstaciones.Size = new System.Drawing.Size(585, 300);
+            this.dgvEstaciones.Size = new System.Drawing.Size(439, 244);
             this.dgvEstaciones.TabIndex = 12;
             // 
             // btnNuevo
@@ -217,9 +229,10 @@ namespace SPARTANFIT.VISTA
             this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevo.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.btnNuevo.ForeColor = System.Drawing.Color.White;
-            this.btnNuevo.Location = new System.Drawing.Point(660, 450);
+            this.btnNuevo.Location = new System.Drawing.Point(495, 366);
+            this.btnNuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(160, 36);
+            this.btnNuevo.Size = new System.Drawing.Size(120, 29);
             this.btnNuevo.TabIndex = 13;
             this.btnNuevo.Text = "NUEVO";
             this.btnNuevo.UseVisualStyleBackColor = false;
@@ -232,9 +245,10 @@ namespace SPARTANFIT.VISTA
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrar.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.btnRegistrar.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrar.Location = new System.Drawing.Point(835, 450);
+            this.btnRegistrar.Location = new System.Drawing.Point(626, 366);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(160, 36);
+            this.btnRegistrar.Size = new System.Drawing.Size(120, 29);
             this.btnRegistrar.TabIndex = 14;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = false;
@@ -247,9 +261,10 @@ namespace SPARTANFIT.VISTA
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.btnEditar.ForeColor = System.Drawing.Color.White;
-            this.btnEditar.Location = new System.Drawing.Point(1010, 450);
+            this.btnEditar.Location = new System.Drawing.Point(758, 366);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(160, 36);
+            this.btnEditar.Size = new System.Drawing.Size(120, 29);
             this.btnEditar.TabIndex = 15;
             this.btnEditar.Text = "EDITAR";
             this.btnEditar.UseVisualStyleBackColor = false;
@@ -262,9 +277,10 @@ namespace SPARTANFIT.VISTA
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
-            this.btnEliminar.Location = new System.Drawing.Point(835, 495);
+            this.btnEliminar.Location = new System.Drawing.Point(626, 402);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(160, 36);
+            this.btnEliminar.Size = new System.Drawing.Size(120, 29);
             this.btnEliminar.TabIndex = 16;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -277,9 +293,10 @@ namespace SPARTANFIT.VISTA
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             this.btnCancelar.ForeColor = System.Drawing.Color.White;
-            this.btnCancelar.Location = new System.Drawing.Point(1010, 495);
+            this.btnCancelar.Location = new System.Drawing.Point(758, 402);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(160, 36);
+            this.btnCancelar.Size = new System.Drawing.Size(120, 29);
             this.btnCancelar.TabIndex = 17;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -287,10 +304,13 @@ namespace SPARTANFIT.VISTA
             // picFoto
             // 
             this.picFoto.BackColor = System.Drawing.Color.Transparent;
+            this.picFoto.BackgroundImage = global::SPARTANFIT.Properties.Resources.Competencia;
+            this.picFoto.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picFoto.Location = new System.Drawing.Point(25, 105);
+            this.picFoto.Location = new System.Drawing.Point(19, 85);
+            this.picFoto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picFoto.Name = "picFoto";
-            this.picFoto.Size = new System.Drawing.Size(295, 475);
+            this.picFoto.Size = new System.Drawing.Size(222, 386);
             this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picFoto.TabIndex = 3;
             this.picFoto.TabStop = false;
@@ -304,10 +324,9 @@ namespace SPARTANFIT.VISTA
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.button1.Location = new System.Drawing.Point(1142, 611);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(856, 496);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 34);
+            this.button1.Size = new System.Drawing.Size(86, 28);
             this.button1.TabIndex = 33;
             this.button1.Text = "Regresar";
             this.button1.UseVisualStyleBackColor = false;
@@ -315,12 +334,12 @@ namespace SPARTANFIT.VISTA
             // 
             // FrmEstaciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::SPARTANFIT.Properties.Resources.FondoLogin;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1280, 700);
+            this.ClientSize = new System.Drawing.Size(960, 569);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.lblTitulo);
@@ -340,7 +359,8 @@ namespace SPARTANFIT.VISTA
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnCancelar);
-            this.MinimumSize = new System.Drawing.Size(1100, 650);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(829, 535);
             this.Name = "FrmEstaciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmEstaciones";
